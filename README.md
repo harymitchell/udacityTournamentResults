@@ -1,6 +1,10 @@
-Please only attempt to run the tests inside of the Vagrant environment.
+Tournament Results Swiss Pairing 
 
-To run the tests, enter command:
+NOTE: Please only attempt to run the tests inside of the Vagrant environment.
 
-$ python tournament_test.py
+1) First you must create the database by typing command:
+   $ psql -f tournament.sql
+
+2) Next, to run the tests, enter command:
+   $ python tournament_test.py
 
